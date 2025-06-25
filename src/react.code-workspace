@@ -1,0 +1,31 @@
+{
+	"folders": [
+		{
+			"path": "../../../Interactive landing page"
+		},
+		{
+			"path": "../../../contact-form"
+		},
+		{
+			"path": "../../../weather app"
+		},
+		{
+			"path": "../../../weather-app"
+		},
+		{
+			"path": "../../../newsletter"
+		},
+		{
+			"path": "../../../newsletter-popup"
+		},
+		{
+			"path": "../../../IPO web app"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "newsletter"
+	}
+}

@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "company_name": "AlphaTech Ltd.",
+    "logo": "/assets/alpha-logo.png",
+    "price_band": "₹120 - ₹135",
+    "open_date": "2025-07-01",
+    "close_date": "2025-07-03",
+    "lot_size": 50,
+    "sector": "Technology"
+  },
+  {
+    "id": 2,
+    "company_name": "FinServe Pvt. Ltd.",
+    "logo": "/assets/finserve-logo.png",
+    "price_band": "₹300 - ₹320",
+    "open_date": "2025-07-05",
+    "close_date": "2025-07-08",
+    "lot_size": 45,
+    "sector": "Finance"
+  }
+]
