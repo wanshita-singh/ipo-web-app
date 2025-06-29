@@ -6,7 +6,7 @@ const DEFAULT_IPOS = [
   {
     id: "1",
     company_name: "AlphaTech Ltd.",
-    logo: "/assets/alpha-logo.png",
+    logo: "/assets/alpha-logo.png", // 
     price_band: "₹120 - ₹135",
     open_date: "2025-07-01",
     close_date: "2025-07-03",
@@ -16,7 +16,7 @@ const DEFAULT_IPOS = [
   {
     id: "2",
     company_name: "FinServe Pvt. Ltd.",
-    logo: "/assets/finserve-logo.png",
+    logo: "/assets/finserve-logo.png", // 
     price_band: "₹300 - ₹320",
     open_date: "2025-07-05",
     close_date: "2025-07-08",
@@ -24,6 +24,7 @@ const DEFAULT_IPOS = [
     sector: "Finance"
   }
 ];
+
 
 const AdminDashboard = () => {
   const initialData = JSON.parse(localStorage.getItem('adminIpos')) || [];

@@ -1,70 +1,111 @@
-# Getting Started with Create React App
+# 📊 IPO Web Application – Bluestock Fintech Internship Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A fully responsive and interactive IPO platform built using **ReactJS** + **TailwindCSS**, featuring:
 
-## Available Scripts
+- 📋 Upcoming IPO Listings  
+- 🔍 Search and Filter by sector or company  
+- 👩‍💼 Admin Dashboard for Add/Edit/Delete IPOs  
+- 🛡️ LocalStorage as data source (No backend)  
+- 💡 Based on real Figma UI from Bluestock  
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🚀 Live Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🔗 [https://wanshita-singh.github.io/ipo-web-app](https://wanshita-singh.github.io/ipo-web-app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## 🖼️ Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📌 Homepage
 
-### `npm run build`
+![Homepage](screenshots/homepage.png)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📌 IPO Detail Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![IPO Detail](screenshots/ipo-detail.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📌 Admin Dashboard
 
-### `npm run eject`
+![Admin Dashboard](screenshots/admin-dashboard.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Technology Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **Frontend**: ReactJS  
+- **Styling**: TailwindCSS  
+- **Routing**: React Router DOM  
+- **State Mgmt**: useState + useEffect  
+- **Storage**: LocalStorage (temporary storage for IPO data)  
+- **No backend used** – Dummy JSON data for testing  
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 📁 Folder Structure
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```txt
+ipo-web-app/
+├── public/
+├── src/
+│   ├── components/       # Reusable UI components
+│   ├── pages/            # Home, Admin, Login pages
+│   ├── assets/           # Logos and fallback images
+│   └── App.js, index.js
+├── screenshots/          # PNG screenshots for README
+└── README.md
+```
+---
+## 🧪 Setup & Run
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### 1. Clone the repo
 
-### Code Splitting
+```bash
+git clone https://github.com/wanshita-singh/ipo-web-app.git
+cd ipo-web-app
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 2. Install dependencies
 
-### Analyzing the Bundle Size
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### 3. Start the development server
 
-### Making a Progressive Web App
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+---
 
-### Advanced Configuration
+## ⚙️ Build & Deploy
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### To create a production-ready build:
 
-### Deployment
+```bash
+npm run build
+```
+### To deploy to GitHub Pages:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm run deploy
+```
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+---
+
+## 🙋‍♀️ Author
+
+**Wanshita Singh**  
+Frontend Intern at Bluestock Fintech  
+📧 wanshu2204@gmail.com  
+🔗 [GitHub Profile](https://github.com/wanshita-singh)
+
+---
+
+## 🔒 License
+
+This project is the intellectual property of **Bluestock Fintech**.  
+Do not share, distribute, or reuse without written authorization.
